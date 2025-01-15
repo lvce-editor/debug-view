@@ -1,7 +1,7 @@
 import type { DebugButton } from '../DebugButton/DebugButton.ts'
-import type { DebugState } from '../DebugState/DebugState.js'
+import type { DebugState } from '../DebugState/DebugState.ts'
 import * as DebugStateValue from '../DebugStateValue/DebugStateValue.ts'
-import * as DebugStrings from '../DebugStrings/DebugStrings.js'
+import * as DebugStrings from '../DebugStrings/DebugStrings.ts'
 
 export const getDebugButtons = (debugState: DebugState): readonly DebugButton[] => {
   const debugButtons: DebugButton[] = []
