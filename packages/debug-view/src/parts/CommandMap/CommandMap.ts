@@ -1,3 +1,4 @@
+import * as GetDebugButtons from '../GetDebugButtons/GetDebugButtons.ts'
 import * as HandleClickPauseOnUncaughtExceptions from '../HandleClickPauseOnUncaughtExceptions/HandleClickPauseOnCaughtExceptions.ts'
 import * as HandleClickSectionWatch from '../HandleClickSectionWatch/HandleClickSectionWatch.ts'
 import * as Pause from '../Pause/Pause.ts'
@@ -16,4 +17,5 @@ export const commandMap = {
   'Debug.togglePause': TogglePause.togglePause,
   'Debug.resume': Resume.resume,
   'Debug.pause': Pause.pause,
+  'Debug.getButtons': GetDebugButtons.getDebugButtons,
 }
