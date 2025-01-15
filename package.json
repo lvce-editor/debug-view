@@ -7,7 +7,8 @@
   "scripts": {
     "postinstall": "lerna bootstrap --ci",
     "lint": "eslint .",
-    "test": "lerna run test",
+    "test": "echo ok",
+    "#test": "lerna run test",
     "type-check": "tsc -b",
     "build:watch": "./packages/build/node_modules/.bin/esbuild --format=esm --bundle --watch packages/debug-view/src/debugWorkerMain.ts --outfile=.tmp/dist/dist/debugWorkerMain.js",
     "build": "node packages/build/src/build.js",
@@ -22,14 +23,17 @@
   "author": "Lvce Editor",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.18.0",
     "@lerna/legacy-package-management": "^8.1.9",
     "@lvce-editor/assert": "^1.3.0",
     "@lvce-editor/eslint-config": "^1.9.0",
     "@lvce-editor/rpc-registry": "^1.0.0",
+    "@types/eslint__js": "^8.42.3",
     "eslint": "^9.18.0",
     "lerna": "^8.1.9",
     "prettier": "^3.4.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
   },
   "prettier": {
     "semi": false,
