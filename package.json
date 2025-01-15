@@ -16,7 +16,7 @@
     "measure": "cd packages/memory && npm run measure"
   },
   "keywords": [
-    "about"
+    "debug"
   ],
   "author": "Lvce Editor",
   "license": "MIT",
