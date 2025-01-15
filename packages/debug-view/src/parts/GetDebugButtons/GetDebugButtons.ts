@@ -1,5 +1,5 @@
-import { DebugButton } from '../DebugButton/DebugButton.ts'
-import { DebugState } from '../DebugState/DebugState.js'
+import type { DebugButton } from '../DebugButton/DebugButton.ts'
+import type { DebugState } from '../DebugState/DebugState.js'
 import * as DebugStateValue from '../DebugStateValue/DebugStateValue.ts'
 import * as DebugStrings from '../DebugStrings/DebugStrings.js'
 

@@ -1,4 +1,4 @@
-import { DebugState } from '../DebugState/DebugState.ts'
+import type { DebugState } from '../DebugState/DebugState.ts'
 import * as Debug from '../Debug/Debug.ts'
 
 export const pause = async (state: DebugState): Promise<DebugState> => {

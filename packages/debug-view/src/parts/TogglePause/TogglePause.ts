@@ -1,4 +1,4 @@
-import { DebugState } from '../DebugState/DebugState.ts'
+import type { DebugState } from '../DebugState/DebugState.ts'
 import * as DebugStateValue from '../DebugStateValue/DebugStateValue.ts'
 import * as Pause from '../Pause/Pause.ts'
 import * as Resume from '../Resume/Resume.ts'

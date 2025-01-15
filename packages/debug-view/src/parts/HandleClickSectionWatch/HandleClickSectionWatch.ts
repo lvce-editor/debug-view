@@ -1,4 +1,4 @@
-import { DebugState } from '../DebugState/DebugState.ts'
+import type { DebugState } from '../DebugState/DebugState.ts'
 
 export const handleClickSectionWatch = (state: DebugState): DebugState => {
   const { watchExpanded } = state
