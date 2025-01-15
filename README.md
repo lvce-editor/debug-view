@@ -1,3 +1,3 @@
 # debug-view
 
-About View.
+Debug View.
