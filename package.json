@@ -1,7 +1,7 @@
 {
   "name": "@lvce-editor/debug-view-monorepo",
   "version": "0.0.0-dev",
-  "description": "",
+  "description": "Debug View Monorepo",
   "main": "",
   "type": "module",
   "scripts": {
@@ -17,7 +17,7 @@
     "format": "prettier --write ."
   },
   "keywords": [
-    "about"
+    "Debug View"
   ],
   "author": "Lvce Editor",
   "license": "MIT",
