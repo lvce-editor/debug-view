@@ -1,45 +1,46 @@
 import { DebugButton } from '../DebugButton/DebugButton.ts'
-import * as DebugState from '../DebugState/DebugState.js'
-import * as ViewletRunAndDebugStrings from '../ViewletRunAndDebug/ViewletRunAndDebugStrings.js'
+import { DebugState } from '../DebugState/DebugState.js'
+import * as DebugStateValue from '../DebugStateValue/DebugStateValue.ts'
+import * as DebugStrings from '../DebugStrings/DebugStrings.js'
 
 export const getDebugButtons = (debugState: DebugState): readonly DebugButton[] => {
   const debugButtons: DebugButton[] = []
-  if (debugState === DebugState.Paused) {
+  if (debugState === DebugStateValue.Paused) {
     debugButtons.push({
-      title: ViewletRunAndDebugStrings.resume(),
+      title: DebugStrings.resume(),
       icon: 'DebugContinue',
       fn: 'resume',
     })
   } else {
     debugButtons.push({
-      title: ViewletRunAndDebugStrings.pause(),
+      title: DebugStrings.pause(),
       icon: 'DebugPause',
       fn: 'pause',
     })
   }
   debugButtons.push(
     {
-      title: ViewletRunAndDebugStrings.stepOver(),
+      title: DebugStrings.stepOver(),
       icon: 'DebugStepOver',
       fn: 'stepOver',
     },
     {
-      title: ViewletRunAndDebugStrings.stepInto(),
+      title: DebugStrings.stepInto(),
       icon: 'DebugStepInto',
       fn: 'stepInto',
     },
     {
-      title: ViewletRunAndDebugStrings.stepOut(),
+      title: DebugStrings.stepOut(),
       icon: 'DebugStepOut',
       fn: 'stepOut',
     },
     {
-      title: ViewletRunAndDebugStrings.restart(),
+      title: DebugStrings.restart(),
       icon: 'DebugRestart',
       fn: 'restart',
     },
     {
-      title: ViewletRunAndDebugStrings.stop(),
+      title: DebugStrings.stop(),
       icon: 'DebugStop',
       fn: 'stop',
     },
