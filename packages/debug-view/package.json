@@ -1,7 +1,7 @@
 {
   "name": "@lvce-editor/debug-view",
   "version": "0.0.0-dev",
-  "description": "About View Worker",
+  "description": "Debug View Worker",
   "main": "src/debugWorkerMain.ts",
   "type": "module",
   "scripts": {
